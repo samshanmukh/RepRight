@@ -155,13 +155,13 @@ class WorkoutScreen extends ConsumerWidget {
           height: 48,
           decoration: BoxDecoration(
             color: isCompleted
-                ? Colors.green.withOpacity(0.1)
+                ? Colors.teal.withOpacity(0.1)
                 : theme.colorScheme.primary.withOpacity(0.1),
             borderRadius: BorderRadius.circular(12),
           ),
           child: Icon(
             isCompleted ? Icons.check_circle : Icons.fitness_center,
-            color: isCompleted ? Colors.green : theme.colorScheme.primary,
+            color: isCompleted ? Colors.teal : theme.colorScheme.primary,
           ),
         ),
         title: Text(
